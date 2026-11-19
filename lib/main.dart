@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:onenightfit_mobile/menu.dart';
+import 'package:onenightfit_mobile/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,10 +12,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'OneNightFit',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Color(0xFF804D80),
+          seedColor: Color(0xFF350039),
           secondary: Color(0xFFA10EAF)
         ),
         useMaterial3: true,
